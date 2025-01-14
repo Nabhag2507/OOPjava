@@ -6,6 +6,10 @@ public class Calc {
 		System.out.println("enter your choise");
 		int c=sc.nextInt();
 
+		int a=c*2;
+
+		System.out.println(a);
+
 		sc.close();
 	}
 }
