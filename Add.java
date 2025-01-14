@@ -11,5 +11,7 @@ public class Add{
 		int b=cd.nextInt();
 
 		System.out.println("your sum is :"+(a+b));
+
+		cd.close();
 	}
 }
