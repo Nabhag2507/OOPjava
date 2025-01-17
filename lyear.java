@@ -8,13 +8,7 @@ public class lyear{
 		int y=sc.nextInt();
 
 		if (y%4 == 0 || (y%400 == 0 && y%100 != 0)){
-			// int a=y/4;
-			// if(y%400 == 0 && y%100 != 0){
-				System.out.println("Entered year is Leap year");
-			// }
-			// else{
-			// 	System.out.println("Entered year is not Leap year");
-			// }
+			System.out.println("Entered year is Leap year");
 		}
 		else{
 				System.out.println("Entered year is not Leap year");

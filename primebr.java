@@ -13,7 +13,6 @@ public class primebr{
 		int max=(a>b)?(a):(b);
 		int min=(a<b)?(a):(b);
 
-
 		for (int i=min;i<=max;i++){
 			int counter=0;
 			for (int j=1;j<max;j++){
@@ -25,6 +24,5 @@ public class primebr{
 				System.out.println(i +" ");
 			}
 		}
-		sc.close();
 	}
 }

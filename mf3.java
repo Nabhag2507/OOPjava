@@ -13,11 +13,8 @@ public class mf3{
 		System.out.println("Enter third number :");
 		int c=sc.nextInt();
 
-		int max=(a>b)?((a>c)?(a):b):((b>c)?(b):(c));;
-
+		int max=(a>b)?((a>c)?(a):b):((b>c)?(b):(c));
 		
-
 		System.out.println("MAX number is "+max);
-		sc.close();
 	}
 }
