@@ -24,5 +24,6 @@ public class primebr{
 				System.out.println(i +" ");
 			}
 		}
+		sc.close();
 	}
 }

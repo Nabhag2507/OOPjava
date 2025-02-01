@@ -11,12 +11,11 @@ public class voc{
 
 		for(int i=0;i<=str.length()-1;i++){
 			ch=str.charAt(i);
+			System.out.println(ch);
+			
 			if (ch == 'a' || ch == 'e'|| ch == 'i' ||ch == 'o' ||ch == 'u'||
 				ch == 'A' || ch == 'E'|| ch == 'I' ||ch == 'O' ||ch == 'U'){
 					vcou++;
-			}
-			else if(ch == " "){
-				
 			}
 			else{
 				ccou++;
@@ -24,5 +23,6 @@ public class voc{
 		}
 		System.out.println("Vowels :"+vcou);
 		System.out.println("Consonent :"+ccou);
+		sc.close();
 	}
 }

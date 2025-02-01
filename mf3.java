@@ -16,5 +16,6 @@ public class mf3{
 		int max=(a>b)?((a>c)?(a):b):((b>c)?(b):(c));
 		
 		System.out.println("MAX number is "+max);
+		sc.close();
 	}
 }

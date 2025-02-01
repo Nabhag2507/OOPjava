@@ -7,10 +7,6 @@ public class revarr{
 		int size=sc.nextInt();
 
 		int[] arr=new int [size];
-		int[] arr1=new int [size];
-
-		int add=0;
-
 		for (int i=0;i<size;i++){
 			System.out.println("Enter no :"+(i+1));
 			arr[i]=sc.nextInt();
@@ -18,5 +14,6 @@ public class revarr{
 		for (int i=size-1;i>=0;i--){
 			System.out.println(arr[i]);
 		}
+		sc.close();
 	}
 }
