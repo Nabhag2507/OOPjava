@@ -21,9 +21,10 @@ class Student {
     public void print() {
         System.out.println("Student ID: " + id_no);
         System.out.println("Number of subjects registered: " + no_of_subjects_registered);
-        System.out.println("Subject Code \t Subject Credits \t Grade Obtained");
-        for (int i = 0; i < no_of_subjects_registered; i++) {
-            System.out.println(subject_code[i] + "\t" + subject_credits[i] + "\t" + grade_obtained[i]);
+
+        for (int i=0;i<no_of_subjects_registered;i++){
+            System.out.println("Subject Code: " + subject_code[i] + ", Credits: " +
+            subject_credits[i] + ", Grade Obtained: " + grade_obtained[i]);
         }
         System.out.println("Your spi is : " + spi);
     }
