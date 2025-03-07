@@ -64,16 +64,16 @@ public class lab7A1 {
                 if (grade_obtained[j].equals("A")) {
                     grade = 10;
                 }
-                if (grade_obtained[j].equals("B")) {
+                else if (grade_obtained[j].equals("B")) {
                     grade = 8;
                 }
-                if (grade_obtained[j].equals("C")) {
+                else if (grade_obtained[j].equals("C")) {
                     grade = 6;
                 }
-                if (grade_obtained[j].equals("D")) {
+                else if (grade_obtained[j].equals("D")) {
                     grade = 4;
                 }
-                if (grade_obtained[j].equals("E")) {
+                else if (grade_obtained[j].equals("E")) {
                     grade = 2;
                 }
                 var = subject_credits[j] * grade;
